@@ -1,1 +1,68 @@
+# 🍽️ Online Food Preference Analysis
 
+## 📖 Project Overview
+
+This project involves the analysis of an online food preferences dataset containing customer demographic information and their food ordering behavior. The dataset captures various factors influencing customers' decisions to order food online, including age, gender, income, occupation, and geographical location.
+
+## 📊 Dataset Description
+
+The dataset contains **388 records** with **13 features** capturing customer demographics and food ordering behavior:
+
+### 🔍 Features:
+- **Demographic Information:**
+  - `Age`: Customer's age
+  - `Gender`: Male/Female/Prefer not to say
+  - `Marital Status`: Single/Married/Prefer not to say
+  - `Occupation`: Student/Employee/Self Employeed/House wife
+  - `Monthly Income`: Income brackets (No Income to More than 50000)
+  - `Educational Qualifications`: School to Ph.D levels
+  - `Family size`: Number of family members
+
+- **Geographical Data:**
+  - `latitude`, `longitude`: Geographical coordinates
+  - `Pin code`: Area pin codes (5600xx series - Bangalore, India)
+
+- **Behavioral Data:**
+  - `Output`: Whether the customer orders food online (Yes/No)
+  - `Feedback`: Customer feedback (Positive/Negative)
+
+## 🎯 Project Objectives
+
+1. **Exploratory Data Analysis (EDA)** of customer demographics and preferences
+2. **Identify key factors** influencing online food ordering decisions
+3. **Analyze geographical patterns** in food ordering behavior
+4. **Understand customer feedback** and satisfaction levels
+5. **Build predictive models** for customer behavior prediction
+
+## 🛠️ Tech Stack
+
+- **Programming Language:** Python
+- **Libraries:** 
+  - `pandas` - Data manipulation and analysis
+  - `numpy` - Numerical computations
+  - `matplotlib` & `seaborn` - Data visualization
+  - `scikit-learn` - Machine learning models
+  - `geopandas` - Geographical data analysis (optional)
+
+## 📈 Key Analysis Areas
+
+### 1. **Demographic Analysis**
+- Age distribution of online food customers
+- Gender-wise ordering patterns
+- Income levels and ordering frequency
+- Educational background influence
+
+### 2. **Behavioral Analysis**
+- Factors affecting online food ordering decisions
+- Customer feedback analysis (Positive vs Negative)
+- Family size impact on ordering behavior
+
+### 3. **Geographical Analysis**
+- Location-based ordering patterns
+- Pin code area analysis
+- Density mapping of customers
+
+### 4. **Predictive Modeling**
+- Classification models to predict ordering behavior
+- Customer segmentation
+- Recommendation systems
